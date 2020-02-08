@@ -19,12 +19,3 @@ def current_player(board)
     puts("O")
   end
 end
-
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-current_player(board)
-puts("----------")
-board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-current_player(board)
-puts("----------")
-board = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
-current_player(board)
