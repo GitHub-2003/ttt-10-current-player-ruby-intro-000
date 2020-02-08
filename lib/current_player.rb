@@ -2,7 +2,7 @@
 # returns the number of turns that have been played.
 def turn_count(board)
   board.each do |XorO|
-    if XorO != " "
+    if #{XorO} != " "
       count += 1
     end
   return count
