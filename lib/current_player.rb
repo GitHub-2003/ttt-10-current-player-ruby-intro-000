@@ -25,5 +25,6 @@ current_player(board)
 puts("----------")
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 current_player(board)
-puts("----------")board = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
+puts("----------")
+board = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
 current_player(board)
