@@ -7,7 +7,7 @@ def turn_count(board)
   end
   count = 0
   board.each do |xo|
-    if #{xo} != " "
+    if xo != " "
       count += 1
     end
   end
