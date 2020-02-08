@@ -5,6 +5,13 @@ def turn_count(board)
   primary_colors.each do |color|
     puts "Primary Color #{color} is #{color.length} letters long."
   end
+  count = 0
+  board.each do |xo|
+    if #{xo} != " "
+      count += 1
+    end
+  end
+  return count
 end
 
 def current_player(board)
