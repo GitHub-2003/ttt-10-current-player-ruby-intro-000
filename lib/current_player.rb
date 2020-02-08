@@ -3,6 +3,7 @@
 def turn_count(board)
   board.each do |XorO|
     puts "#{XorO}"
+  end
 end
 
 def current_player(board)
