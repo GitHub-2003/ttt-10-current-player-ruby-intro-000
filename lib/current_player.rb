@@ -16,3 +16,10 @@ def current_player(board)
   else
     puts("O")
 end
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+current_player(board)
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+current_player(board)
+board = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
+current_player(board)
