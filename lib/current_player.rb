@@ -2,12 +2,8 @@
 # returns the number of turns that have been played.
 def turn_count(board)
   primary_colors = ["Red", "Yellow", "Blue"]
-  primary_colors.each do |color| 		# do begins a block
-            # the lines between the do/end are the block's body
-  puts "Primary Color #{color} is #{color.length} letters long."
-
-  board.each do |XorO|
-    puts "#{XorO}"
+  primary_colors.each do |color|
+    puts "Primary Color #{color} is #{color.length} letters long."
   end
 end
 
